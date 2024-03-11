@@ -1,0 +1,24 @@
+.chats {
+  width: 97%;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.chats > div {
+  display: flex;
+  background-color: white;
+  box-shadow: 0 0 10px 2px rgba(176, 176, 176, 0.221);
+}
+
+.chats h2 {
+  margin: 16px 0 8px;
+  font-size: 20px;
+}
+
+.chats h3 {
+  margin: 0;
+  margin-bottom: 32px;
+  font-size: 14px;
+  color: gray;
+  font-weight: normal;
+}

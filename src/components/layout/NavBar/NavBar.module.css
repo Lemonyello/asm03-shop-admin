@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  gap: 16px;
+  padding: 12px 32px;
+  background-color: rgb(158, 210, 255);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(57, 140, 178);
+  padding-right: 8px;
+  background-color: rgb(234, 255, 250);
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.navbar span {
+  margin-left: 6px;
+}
+
+.active {
+  background-color: rgb(57, 140, 178) !important;
+  color: rgb(234, 255, 250) !important;
+}
+
+.navbar button {
+  margin-left: auto;
+  border: none;
+  background-color: rgb(190, 62, 62);
+  color: white;
+  border-radius: 4px;
+  padding: 8px;
+}

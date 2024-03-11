@@ -1,0 +1,53 @@
+.form {
+  width: 60%;
+  margin: 32px;
+}
+
+.form label {
+  margin-bottom: 8px;
+}
+
+.form input[type="file"] {
+  border: none;
+}
+
+.form input,
+.form textarea {
+  margin-bottom: 16px;
+  padding: 12px;
+  border: 1px solid rgb(189, 189, 189);
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+}
+
+.form textarea,
+.form input,
+.form label {
+  resize: none;
+  display: block;
+  width: 100%;
+  color: rgb(89, 89, 89);
+}
+
+.form button {
+  border: none;
+  background-color: rgb(82, 93, 255);
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.form button:hover {
+  cursor: pointer;
+}
+
+.form p {
+  font-weight: bold;
+  color: green;
+  margin-left: 32px;
+  display: inline-block;
+}
